@@ -1,0 +1,26 @@
+- MVC Architecture 
+- ASP.NET MVC Request Pipeline
+- Controller and Action Methods
+- ActionResult Types 
+- Parameter Binding
+- TempData, ViewBag, ViewData
+- Dependency Injection in Controllers
+- Controller Attributes
+- Razor Syntax
+- Layouts 
+- Partial Views
+- Strongly Typed Views
+- Model Binding
+ -Server-side Validation
+- Client-side Validation
+- Forms 
+- Conventional Routing
+- Attribute Routing 
+- Areas
+- Action Filters
+- Session State
+- TempData
+- ViewData / ViewBag
+- JavaScript Integration
+- AJAX Forms
+- Returning Partial Views via AJAX
