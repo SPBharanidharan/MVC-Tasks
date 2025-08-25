@@ -4772,11 +4772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bharani.senthil\\Desktop\\MVC Assignment\\BankingApplication\\BankingApplication.csproj",
+      "projectUniqueName": "C:\\Users\\bharani.senthil\\Desktop\\MVC Assignment\\MVC-Tasks\\BankingApplication.csproj",
       "projectName": "BankingApplication",
-      "projectPath": "C:\\Users\\bharani.senthil\\Desktop\\MVC Assignment\\BankingApplication\\BankingApplication.csproj",
+      "projectPath": "C:\\Users\\bharani.senthil\\Desktop\\MVC Assignment\\MVC-Tasks\\BankingApplication.csproj",
       "packagesPath": "C:\\Users\\bharani.senthil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bharani.senthil\\Desktop\\MVC Assignment\\BankingApplication\\obj\\",
+      "outputPath": "C:\\Users\\bharani.senthil\\Desktop\\MVC Assignment\\MVC-Tasks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bharani.senthil\\AppData\\Roaming\\NuGet\\NuGet.Config"

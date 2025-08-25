@@ -15,7 +15,7 @@
 - Client-side Validation
 - Forms 
 - Conventional Routing
-- Attribute Routing 
+- Attribute Routing
 - Areas
 - Action Filters
 - Session State
