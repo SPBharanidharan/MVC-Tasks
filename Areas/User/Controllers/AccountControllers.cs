@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BankingApplication.Areas.User.Controllers
 {
+    //comments
     [Area("User")]
     [Route("user/[controller]/[action]")]
     public class AccountController : Controller
