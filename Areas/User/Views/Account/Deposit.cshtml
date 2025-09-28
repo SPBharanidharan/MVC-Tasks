@@ -1,0 +1,44 @@
+@{ 
+    ViewData["Title"] = "Deposit";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<h2>Deposit Money</h2>
+
+<form asp-area="User" asp-controller="Account" asp-action="Deposit" method="post" onsubmit="return validateDeposit()">
+    <div>
+        <label for="amount">Amount:</label>
+        <input type="number" name="amount" id="amount" required min="1" />
+    </div>
+    <div>
+        <label for="pin">Enter PIN:</label>
+        <input type="password" name="pin" id="pin" required minlength="4" maxlength="6" />
+    </div>
+    <button type="submit">Deposit</button>
+</form>
+
+@if (TempData["Message"] != null)
+{
+    <p style="color: green">@TempData["Message"]</p>
+}
+@if (TempData["Error"] != null)
+{
+    <p style="color: red">@TempData["Error"]</p>
+}
+
+<script>
+    function validateDeposit() {
+        let amount = document.getElementById("amount").value;
+        let pin = document.getElementById("pin").value;
+
+        if (amount <= 0) {
+            alert("Amount must be greater than 0.");
+            return false;
+        }
+        if (pin.length < 4 || pin.length > 6) {
+            alert("PIN must be 4 to 6 digits.");
+            return false;
+        }
+        return true;
+    }
+</script>

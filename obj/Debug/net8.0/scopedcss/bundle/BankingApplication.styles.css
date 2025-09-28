@@ -1,0 +1,47 @@
+/* _content/BankingApplication/Views/Shared/_Layout.cshtml.rz.scp.css */
+
+a.navbar-brand[b-6ydwkrsug9] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-6ydwkrsug9] {
+  color: #b100f7;
+}
+
+.btn-primary[b-6ydwkrsug9] {
+  color: #fff;
+  background-color: #ba04fc;
+  border-color: #9506fb;
+}
+
+.nav-pills .nav-link.active[b-6ydwkrsug9], .nav-pills .show > .nav-link[b-6ydwkrsug9] {
+  color: #fff;
+  background-color: #aa02f1;
+  border-color: #a008f8;
+}
+
+.border-top[b-6ydwkrsug9] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-6ydwkrsug9] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-6ydwkrsug9] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-6ydwkrsug9] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-6ydwkrsug9] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
